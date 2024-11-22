@@ -6,4 +6,4 @@ import kotlinx.serialization.Serializable
 object HomeScreenRoute
 
 @Serializable
-object HorizontallyScrollableChartScreenRoute
+object ScrollableChartScreenRoute

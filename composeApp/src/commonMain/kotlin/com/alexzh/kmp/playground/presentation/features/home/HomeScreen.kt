@@ -10,16 +10,16 @@ import androidx.compose.ui.Modifier
 
 @Composable
 fun HomeScreen(
-    onHorizontallyScrollableChart: () -> Unit
+    onScrollableChart: () -> Unit
 ) {
     Column(
         modifier = Modifier.fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Button(
-            onClick = onHorizontallyScrollableChart
+            onClick = onScrollableChart
         ) {
-            Text("Horizontally Scrollable Chart")
+            Text("Scrollable Chart")
         }
     }
 }
