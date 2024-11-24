@@ -1,3 +1,6 @@
+
+- Scrollable Chart using KoalaPlot library ([source code](https://github.com/AlexZhukovich/KotlinMultiplatformPlayground/blob/main/composeApp/src/commonMain/kotlin/com/alexzh/kmp/playground/presentation/features/chart/ScrollableChart.kt), [article](https://alexzh.com/how-to-create-a-scrollable-chart-in-compose-multiplatform/), [video](https://www.youtube.com/watch?v=WtYJuUodiuQ))
+
 This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop.
 
 * `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
