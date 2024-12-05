@@ -1,6 +1,7 @@
 Demos:
 
 - Scrollable Chart using KoalaPlot library ([source code](https://github.com/AlexZhukovich/KotlinMultiplatformPlayground/blob/main/composeApp/src/commonMain/kotlin/com/alexzh/kmp/playground/presentation/features/chart/ScrollableChart.kt), [article](https://alexzh.com/how-to-create-a-scrollable-chart-in-compose-multiplatform/), [video](https://www.youtube.com/watch?v=WtYJuUodiuQ))
+- Platform-specific icons ([source code](https://github.com/AlexZhukovich/KotlinMultiplatformPlayground/blob/main/composeApp/src/commonMain/kotlin/com/alexzh/kmp/playground/presentation/features/icons/IconList.kt), [article](https://alexzh.com/how-to-add-platform-specific-icons-to-a-compose-multiplatform-project/), [video](https://youtu.be/AMZ91EYURjk))
 
 ---
 
