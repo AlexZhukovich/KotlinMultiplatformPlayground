@@ -7,3 +7,6 @@ object HomeScreenRoute
 
 @Serializable
 object ScrollableChartScreenRoute
+
+@Serializable
+object IconListRoute

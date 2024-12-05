@@ -1,7 +1,10 @@
 package com.alexzh.kmp.playground
 
-interface Platform {
-    val name: String
+sealed class Platform {
+    data object Android : Platform()
+    data object Desktop : Platform()
+    data object Ios : Platform()
+    data object Web : Platform()
 }
 
-expect fun getPlatform(): Platform
+expect val platform: Platform

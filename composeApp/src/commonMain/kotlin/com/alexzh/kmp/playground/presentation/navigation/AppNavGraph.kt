@@ -6,6 +6,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import com.alexzh.kmp.playground.presentation.features.chart.ScrollableChartScreen
 import com.alexzh.kmp.playground.presentation.features.home.HomeScreen
+import com.alexzh.kmp.playground.presentation.features.icons.IconList
 
 @Composable
 fun AppNavGraph(
@@ -17,12 +18,19 @@ fun AppNavGraph(
     ) {
         composable<HomeScreenRoute> {
             HomeScreen(
-                onScrollableChart = { navController.navigate(ScrollableChartScreenRoute) }
+                onScrollableChart = { navController.navigate(ScrollableChartScreenRoute) },
+                onIconList = { navController.navigate(IconListRoute) }
             )
         }
 
         composable<ScrollableChartScreenRoute> {
             ScrollableChartScreen(
+                onBack = { navController.navigateUp() }
+            )
+        }
+
+        composable<IconListRoute> {
+            IconList(
                 onBack = { navController.navigateUp() }
             )
         }

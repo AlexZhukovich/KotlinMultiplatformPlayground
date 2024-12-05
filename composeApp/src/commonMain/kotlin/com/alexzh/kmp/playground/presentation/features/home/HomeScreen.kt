@@ -10,16 +10,19 @@ import androidx.compose.ui.Modifier
 
 @Composable
 fun HomeScreen(
-    onScrollableChart: () -> Unit
+    onScrollableChart: () -> Unit,
+    onIconList: () -> Unit
 ) {
     Column(
         modifier = Modifier.fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Button(
-            onClick = onScrollableChart
-        ) {
+        Button(onClick = onScrollableChart) {
             Text("Scrollable Chart")
+        }
+
+        Button(onClick = onIconList) {
+            Text("Icon List")
         }
     }
 }
